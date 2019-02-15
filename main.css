@@ -123,15 +123,23 @@ p{
 }
 #awesome-clients{
     background-color:gainsboro ;
-    height:400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 .speech-bubble {
     position: relative;
-    background: #8080ff;
+    background:white;
     border-radius: .4em;
-    width:300px;
-    height:300px;
+    width:500px;
+    height:120px;
+    text-align: center;
 
+}
+.speech-bubble p{
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .speech-bubble::after {
@@ -142,9 +150,109 @@ p{
     width: 0;
     height: 0;
     border: 26px solid transparent;
-    border-right-color: #8080ff;
+    border-right-color: white;
     border-left: 0;
     border-bottom: 0;
     margin-top: -13px;
     margin-left: -26px;
+}
+.first-client img{
+
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+}
+.first-client{
+    display:grid;
+    grid-template-columns: 30fr 70fr;
+    padding-left:200px;
+    padding-right: 300px;
+    grid-gap:20px ;
+    margin-top:0px;
+    margin-bottom:0px;
+    height:200px;
+
+}
+.speech-bubble-container{
+    width:500px;
+    height:500px;
+}
+#brands{
+    height:100px;
+    background-color: bisque;
+}
+#amazing-team{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    height:500px;
+    vertical-align: center;
+    text-align: center;
+    color:white;
+    justify-content: center;
+}
+#contact-us{
+    font-size:30px;
+    background-color: #768FC7;
+    height:500px;
+    color:white;
+    display:flex;
+    flex-direction: row;
+    padding-left:120px;
+    padding-right:120px;
+    justify-content: center;
+    align-items:center ;
+
+}
+
+#contact-details{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 2.4em;
+    font-size:26px;
+    margin-top:30px;
+
+}
+input,textarea,button{
+    display:block;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+input{
+    height:40px;
+    width:400px;
+}
+textarea{
+    height:150px;
+    width:400px;
+
+}
+button{
+    border-radius: 5px;
+}
+#form{
+    display:flex;
+    justify-content: center;
+}
+#contact-more-details{
+    height:400px;
+    margin-right:40px;
+}
+#footer{
+    height:75px;
+     color:white;
+    font-size:23px;
+    width:100%;
+    bottom:0px;
+    background-color: #768FC7;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}hr{
+  padding:0px;
+    margin:0px;
 }
