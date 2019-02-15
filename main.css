@@ -249,3 +249,11 @@ button{
   padding:0px;
     margin:0px;
 }
+ #last{
+     position:fixed;
+     bottom:0px;
+ }
+ a{
+     text-decoration: none;
+     color:white;
+ }
