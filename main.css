@@ -1,11 +1,5 @@
 #bridge-img{
-    /*display:flex;
-    justify-content: center;
-    position:fixed;
-    top:0px;
-    left:20px;
-    width:1250px;
-    height:500px;*/
+
 }
 nav{
     display:inline;
@@ -25,12 +19,11 @@ nav{
     font-size: 24px;
 }
 #header-section{
-
+    width:100%;
     text-align: center;
     background-image: url("Images/bridge.jfif") ;
     background-size: 100%;
     background-position: center;
-    width:1200px;
     height:500px;
 
 }
