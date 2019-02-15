@@ -117,5 +117,34 @@ p{
 }
 #services-details{
     display:grid;
-    grid-template-columns:50% 50%;
+    grid-template-columns:1fr 1fr;
+    padding: 50px 200px 50px 200px;
+    grid-gap:0px 30px;
+}
+#awesome-clients{
+    background-color:gainsboro ;
+    height:400px;
+}
+.speech-bubble {
+    position: relative;
+    background: #8080ff;
+    border-radius: .4em;
+    width:300px;
+    height:300px;
+
+}
+
+.speech-bubble::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 26px solid transparent;
+    border-right-color: #8080ff;
+    border-left: 0;
+    border-bottom: 0;
+    margin-top: -13px;
+    margin-left: -26px;
 }
